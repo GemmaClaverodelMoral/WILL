@@ -1,4 +1,11 @@
 # Simulación de Henry Challenge para Practicar - JAVASCRIPT
+correcciones Gemma
+
+## Lee con atención todo el material.
+
+---
+
+<br/>
 
 ## **INTRODUCCIÓN**
 
