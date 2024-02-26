@@ -30,7 +30,7 @@ function filtrar(funcion) {
      const arrayFiltrado = [];
      for (let i = 0; i < this.length; i++) {
      // Llamar al callback y agregar el elemento al resultado si la condición es true
-       if (callback(this[i], i, this)) {
+       if (callback(this[i])) {
          arrayFiltrado.push(this[i]);
        }
      }
