@@ -12,8 +12,12 @@ function stringMasLarga(strings) {
   // stringMasLarga(['JavaScript', 'HTML', 'CSS']); debe retornar 'JavaScript'
 
   // Tu código aca
+  let stringMasLargo = strings[0]
+  strings.forEach( (string) => {
+    if (string.length > stringMasLargo.length) { stringMasLargo = string}})
+  return stringMasLargo
 }
 
 // No modifiques nada debajo de esta linea //
-
+console.log(stringMasLarga(['hi', 'hello', 'ni hao', 'guten tag']))
 module.exports = stringMasLarga

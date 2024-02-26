@@ -11,9 +11,9 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-
+  return array.filter((ele) => !isNaN(ele))
 }
-
+console.log(soloNumeros([1, 'Henry', 2]))
 // No modifiques nada debajo de esta linea //
 
 
